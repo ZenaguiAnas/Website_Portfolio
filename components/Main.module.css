@@ -1,0 +1,28 @@
+.imageContainer {
+  flex: 1;
+}
+
+.contentContainer {
+  flex: 1.5;
+}
+
+.heroImg {
+  width: 50%;
+  z-index: 1;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-10px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
