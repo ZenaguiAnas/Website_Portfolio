@@ -15,6 +15,41 @@
   animation-timing-function: ease-in-out;
 }
 
+/* Main.module.css */
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blinkCursor {
+  from { border-right-color: rgba(0, 0, 0, 0); }
+  to { border-right-color: transparent; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is hidden during typing */
+  white-space: nowrap; /* Prevents the content from wrapping */
+  border-right: 0.15em solid rgba(0, 0, 0, 0.75); /* Cursor effect */
+  animation: typewriter 3s steps(40) 1s 1 normal both, blinkCursor 0.75s steps(40) infinite normal;
+}
+
+.typewriter-done {
+  border-right-color: rgba(0, 0, 0, 0);
+  animation: none;
+  border-right: 0.15em solid transparent;
+  
+}
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
 @keyframes floating {
   0% {
     transform: translatey(0px);
