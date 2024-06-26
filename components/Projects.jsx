@@ -6,6 +6,10 @@ import graphtheory from "../public/assets/projects/graphtheory.png";
 import pharmacy from "../public/assets/projects/pharmacy management.png";
 import university from "../public/assets/projects/gst_scolarite.png";
 import portfolio from "../public/assets/projects/portfolio.png";
+import facejob from "../public/assets/projects/facejob.png";
+import better_sql from "../public/assets/projects/better_sql.jpeg";
+import parking from "../public/assets/projects/parking.jpeg";
+import team_safet from "../public/assets/projects/team_safet.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -18,32 +22,38 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Bricol"
+            title="Progressive Web Application for a Freelance Platform “BRICOL”"
             backgroundImg={bricoll}
             projectUrl="https://github.com/ZenaguiAnas/bricoll"
             tech="React/NextJS - mongoDB - GraphQL - Redis - NGINX"
           />
           <ProjectItem
-            title="GraphTheory App"
-            backgroundImg={graphtheory}
+            title="Smart Parking System"
+            backgroundImg={parking}
             projectUrl="https://github.com/ZenaguiAnas/GraphTheoryProject"
             tech="Python - Tkinter - NetworkX"
           />
           <ProjectItem
-            title="University Management"
-            backgroundImg={university}
+            title="SaaS Insurance Platform for football `WEB3`"
+            backgroundImg={team_safet}
             projectUrl="https://github.com/ZenaguiAnas/GST-SCOLARITE"
             tech="C++ - Qt"
           />
           <ProjectItem
-            title="Pharmacy management"
-            backgroundImg={pharmacy}
+            title="Oracle SQL Query Optimization App `BetterSQL`"
+            backgroundImg={better_sql}
             projectUrl="https://github.com/ZenaguiAnas/GPharmacie_JAVA_SWING"
             tech="Java - Swing"
           />
-          <ProjectItem
-            title="Website Portfolio"
+          {/* <ProjectItem
+            title="PWA for E-learning Platform"
             backgroundImg={portfolio}
+            projectUrl="https://github.com/ZenaguiAnas/GPharmacie_JAVA_SWING"
+            tech="React/NextJS - tailwind - Firebase"
+          /> */}
+          <ProjectItem
+            title="Full Stack Web Application for Job Platform `facejob`"
+            backgroundImg={facejob}
             projectUrl="https://github.com/ZenaguiAnas/GPharmacie_JAVA_SWING"
             tech="React/NextJS - tailwind - Firebase"
           />

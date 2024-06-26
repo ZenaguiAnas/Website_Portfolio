@@ -38,7 +38,7 @@ const Main = () => {
 
   return (
     <div id="home" className="w-full min-h-screen text-center">
-      <div className="max-w-screen-2xl mx-auto p-4 md:p-32 flex flex-col md:flex-row items-center">
+      <div className="max-w-screen-2xl mx-auto  p-4 md:p-32 flex flex-col md:flex-row items-center">
         <div className={`${styles.imageContainer} md:flex-1`}>
           <Image src={logo} className={styles.heroImg} alt="Hero Image" width={500} height={500} />
         </div>
