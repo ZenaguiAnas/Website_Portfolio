@@ -49,7 +49,7 @@ const Projects = () => {
           <ProjectItem
             title="Full Stack Web Application for Job Platform `facejob`"
             backgroundImg={facejob}
-            projectUrl="https://github.com/ZenaguiAnas"
+            projectUrl="https://facejob.ma/"
             tech="React/NextJS - tailwind - Laravel - PHP - Typescript"
           />
           <ProjectItem
