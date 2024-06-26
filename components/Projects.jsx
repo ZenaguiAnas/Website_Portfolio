@@ -27,23 +27,18 @@ const Projects = () => {
             projectUrl="https://github.com/ZenaguiAnas/bricoll"
             tech="React/NextJS - mongoDB - GraphQL - Redis - NGINX"
           />
-          <ProjectItem
-            title="Smart Parking System"
-            backgroundImg={parking}
-            projectUrl="https://github.com/ZenaguiAnas/GraphTheoryProject"
-            tech="Python - Tkinter - NetworkX"
-          />
+
           <ProjectItem
             title="SaaS Insurance Platform for football `WEB3`"
             backgroundImg={team_safet}
-            projectUrl="https://github.com/ZenaguiAnas/GST-SCOLARITE"
-            tech="C++ - Qt"
+            projectUrl="https://github.com/2aman-lafr9a"
+            tech="MLOps - DevOps - Web3 - Solidity - Azure - Spring Boot - NextJS - Microservices - MongoDB - CI/CD - Cassandra - Docker - Kubernetes"
           />
           <ProjectItem
             title="Oracle SQL Query Optimization App `BetterSQL`"
             backgroundImg={better_sql}
-            projectUrl="https://github.com/ZenaguiAnas/GPharmacie_JAVA_SWING"
-            tech="Java - Swing"
+            projectUrl="https://github.com/ZenaguiAnas/Query-Optimization"
+            tech="Orace SQL - Deep Learning - Python - Flask API - ReactJS/NexJS - Tailwind"
           />
           {/* <ProjectItem
             title="PWA for E-learning Platform"
@@ -54,8 +49,14 @@ const Projects = () => {
           <ProjectItem
             title="Full Stack Web Application for Job Platform `facejob`"
             backgroundImg={facejob}
-            projectUrl="https://github.com/ZenaguiAnas/GPharmacie_JAVA_SWING"
-            tech="React/NextJS - tailwind - Firebase"
+            projectUrl="https://github.com/ZenaguiAnas"
+            tech="React/NextJS - tailwind - Laravel - PHP - Typescript"
+          />
+          <ProjectItem
+            title="Smart Parking System"
+            backgroundImg={parking}
+            projectUrl="https://github.com/ZenaguiAnas/SmartParking_IoT"
+            tech="Arduino - Raspberry Pi - ReactJS Python - Flask API - OpenCV"
           />
         </div>
       </div>
