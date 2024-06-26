@@ -59,7 +59,7 @@ const Navbar = () => {
           <a>
             <Image
               src={NavLogo}
-              alt="/"
+              alt="Anas Zenagui - Software Engineering Student"
               width="50"
               height="50"
               className="cursor-pointer"
@@ -117,7 +117,12 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <a>
-                  <Image src={NavLogo} width="87" height="35" alt="/" />
+                  <Image
+                    src={NavLogo}
+                    width="87"
+                    height="35"
+                    alt="Anas Zenagui - Software Engineering Student"
+                  />
                 </a>
               </Link>
               <div

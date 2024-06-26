@@ -40,19 +40,31 @@ const Main = () => {
     <div id="home" className="w-full min-h-screen text-center">
       <div className="max-w-screen-2xl mx-auto  p-4 md:p-32 flex flex-col md:flex-row items-center">
         <div className={`${styles.imageContainer} md:flex-1`}>
-          <Image src={logo} className={styles.heroImg} alt="Hero Image" width={500} height={500} />
+          <Image
+            src={logo}
+            className={styles.heroImg}
+            alt="Anas Zenagui - Software Engineering Student"
+            width={500}
+            height={500}
+          />
         </div>
-        <div className={`${styles.contentContainer} md:flex-1 md:ml-8 mt-8 md:mt-0`}>
+        <div
+          className={`${styles.contentContainer} md:flex-1 md:ml-8 mt-8 md:mt-0`}
+        >
           <p className="uppercase text-2xl sm:text-sm md:text-2xl text-gray-600">
             LET'S Go
           </p>
           <h1
-            className={`py-2 sm:py-4 text-gray-700 text-xl sm:text-2xl md:text-5xl ${showTypewriter ? styles.typewriter : ""} ${hideCursor ? styles.typewriterDone : ""}`}
+            className={`py-2 sm:py-4 text-gray-700 text-xl sm:text-2xl md:text-5xl ${
+              showTypewriter ? styles.typewriter : ""
+            } ${hideCursor ? styles.typewriterDone : ""}`}
           >
             Hi, I'm <span className="text-[#5651e5]">Anas ZENAGUI</span>
           </h1>
           <h1
-            className={`py-2 text-gray-700 text-lg sm:text-xl md:text-4xl ${showFadeIn ? styles.fadeIn : ""}`}
+            className={`py-2 text-gray-700 text-lg sm:text-xl md:text-4xl ${
+              showFadeIn ? styles.fadeIn : ""
+            }`}
           >
             A Software Engineering Student
           </h1>
