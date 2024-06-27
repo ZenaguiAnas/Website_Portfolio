@@ -101,7 +101,7 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href="https://github.com/ZenaguiAnas">
+            <Link href='/cv.pdf' download='Anas_Zenagui_CV.pdf'>
               <div className="rounded-full shadow-lg p-4 cursor-pointer hover:scale-110 ease-in duration-300 ml-4">
                 <BsFillPersonLinesFill />
               </div>
