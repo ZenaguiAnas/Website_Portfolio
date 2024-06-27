@@ -12,14 +12,14 @@ export default function Home() {
         <title>Anas Zenagui | Software Engineering Student</title>
         <meta
           name="description"
-          content="Anas Zenagui is a software engineering student specializing in cloud computing, MLOps, and building exceptional digital experiences."
+          content="Anas Zenagui is a software engineering student specializing in DevOps, cloud computing, Web Dev, and building exceptional digital experiences."
         />
         <meta
           name="keywords"
-          content="Anas Zenagui, Cloud, MLOps Engineer, Software Engineer, DevOps Engineer, Mobile Developer, Deep Learning, Data Engineer, IoT, Database, Linux, OS, UI/UX, Engineer, Engineering Student, Front-end Developer, Web Developer, Digital Experiences"
+          content="Anas Zenagui, Cloud, Software Engineer, DevOps Engineer, MLOps Engineer, Mobile Developer, Deep Learning, Data Engineer, IoT, Database, Linux, OS, UI/UX, Engineer, Engineering Student, Front-end Developer, Web Developer, Digital Experiences"
         />
         <meta name="author" content="Anas Zenagui" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
 
         {/* Open Graph Meta Tags */}
         <meta
@@ -28,7 +28,7 @@ export default function Home() {
         />
         <meta
           property="og:description"
-          content="Anas Zenagui is a software engineering student specializing in cloud computing, MLOps, and building exceptional digital experiences."
+          content="Anas Zenagui is a software engineering student specializing in cloud computing, DevOps, Web Dev, and building exceptional digital experiences."
         />
         <meta
           property="og:image"
@@ -41,7 +41,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Anas Zenagui | Cloud and MLOps Engineer"
+          content="Anas Zenagui | Cloud and DevOps Engineer"
         />
         <meta
           name="twitter:description"
