@@ -46,7 +46,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="Anas Zenagui is a software engineering student specializing in cloud computing, MLOps, and building exceptional digital experiences."
+          content="Anas Zenagui is a software engineering student specializing in cloud computing, DevOps, Web Dev, and building exceptional digital experiences."
         />
         <meta
           name="twitter:image"

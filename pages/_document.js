@@ -16,7 +16,7 @@ export default function Document() {
             "@context": "https://schema.org",
             "@type": "Person",
             "name": "Anas Zenagui",
-            "jobTitle": "Software Engineering Student",
+            "jobTitle": "Software Engineer",
             "url": "https://anaszenagui.vercel.app/",
             "sameAs": [
               "https://www.linkedin.com/in/anas-zenagui/",
