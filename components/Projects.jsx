@@ -4,7 +4,6 @@ import React from "react";
 import bricoll from "../public/assets/projects/bricoll.png";
 import graphtheory from "../public/assets/projects/graphtheory.png";
 import pharmacy from "../public/assets/projects/pharmacy.png";
-import university from "../public/assets/projects/gst_scolarite.png";
 import elearning from "../public/assets/projects/admin_dash.png";
 import facejob from "../public/assets/projects/facejob.png";
 import better_sql from "../public/assets/projects/better_sql.jpeg";
