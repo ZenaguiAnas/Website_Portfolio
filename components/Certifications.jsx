@@ -10,15 +10,19 @@ const certifications = [
     link: "https://www.coursera.org/account/accomplishments/certificate/2CSQFV4PP7US",
   },
   {
-    title: "Introduction to Python",
-    image: "/certifications/pyth1.jpg",
-    link: "https://learn.365datascience.com/certificates/CC-53D97FA342/",
-  },
-
-  {
     title: "Python Programmer Bootcamp",
     image: "/certifications/pyth2.jpg",
     link: "https://learn.365datascience.com/certificates/CC-76381FBEB1/",
+  },
+  {
+      title: "Oracle Cloud Infrastructure",
+      image: "/certifications/oracleAi.png",
+      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=FC0C8F61364ED481E9EFFCF0D9D22EAC1335CCE53AE7AB98292D521C88BB2B4D",
+  },
+  {
+    title: "Introduction to Python",
+    image: "/certifications/pyth1.jpg",
+    link: "https://learn.365datascience.com/certificates/CC-53D97FA342/",
   },
 ];
 
