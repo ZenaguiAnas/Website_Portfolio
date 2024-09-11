@@ -17,7 +17,7 @@ export default function Document() {
             "@type": "Person",
             "name": "Anas Zenagui",
             "jobTitle": "Software Engineer",
-            "url": "https://anaszenagui.vercel.app/",
+            "url": "https://www.anaszenagui.me/",
             "sameAs": [
               "https://www.linkedin.com/in/anas-zenagui/",
               "https://github.com/ZenaguiAnas",

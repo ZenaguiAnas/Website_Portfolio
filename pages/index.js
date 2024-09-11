@@ -35,7 +35,7 @@ export default function Home() {
           property="og:image"
           content="https://media.licdn.com/dms/image/D4E03AQFspr6MI03aJw/profile-displayphoto-shrink_200_200/0/1687714548973?e=2147483647&v=beta&t=lU2LIguPkED12ztN2sF_K0u6NlsR5UgXP6fW9dBIHA0"
         />
-        <meta property="og:url" content="https://anaszenagui.vercel.app/" />
+        <meta property="og:url" content="https://www.anaszenagui.me/" />
         <meta property="og:type" content="website" />
 
         {/* Twitter Card Meta Tags */}
