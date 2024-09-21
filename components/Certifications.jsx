@@ -15,9 +15,14 @@ const certifications = [
     link: "https://learn.365datascience.com/certificates/CC-76381FBEB1/",
   },
   {
-      title: "Oracle Cloud Infrastructure",
-      image: "/certifications/oracleAi.png",
-      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=FC0C8F61364ED481E9EFFCF0D9D22EAC1335CCE53AE7AB98292D521C88BB2B4D",
+    title: "Postman API Fundamentals Student Expert",
+    image: "/certifications/postman.png",
+    link: "https://api.badgr.io/public/assertions/GgNTthHRTw6zVjV5kQivyw?identity__email=zenaguianas20%40gmail.com",
+  },
+  {
+    title: "Oracle Cloud Infrastructure",
+    image: "/certifications/oracleAi.png",
+    link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=FC0C8F61364ED481E9EFFCF0D9D22EAC1335CCE53AE7AB98292D521C88BB2B4D",
   },
   {
     title: "Introduction to Python",
@@ -62,7 +67,7 @@ const Certifications = () => {
                 <img
                   src={cert.image}
                   alt={cert.title}
-                  className="w-full h-64 object-cover "
+                  className="w-full h-64 object-contain"
                 />
                 <div className="p-6 text-center">
                   <h3 className="text-xl font-bold mb-2">{cert.title}</h3>
