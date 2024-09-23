@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import myPhoto from "../public/img2.png";
+import myPhoto from "../public/Anas ZENAGUI V1.jpeg";
 
 const About = () => {
   return (

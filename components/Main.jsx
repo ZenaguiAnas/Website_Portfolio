@@ -4,7 +4,7 @@ import Image from "next/image";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import logo from "../public/imgHero.png";
+import logo from "../public/Anas ZENAGUI - Website.png"; // Import the image
 import styles from "./Main.module.css"; // Import the new CSS module
 import { useEffect, useState } from "react"; // Import useEffect and useState
 
@@ -39,7 +39,7 @@ const Main = () => {
   return (
     <div id="home" className="w-full min-h-screen text-center">
       <div className="max-w-screen-2xl mx-auto  p-4 md:p-32 flex flex-col md:flex-row items-center">
-        <div className={`${styles.imageContainer} md:flex-1`}>
+        <div className={`${styles.imageContainer} md:flex-2 mt-20`}>
           <Image
             src={logo}
             className={styles.heroImg}
