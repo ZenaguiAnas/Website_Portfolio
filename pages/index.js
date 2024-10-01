@@ -34,7 +34,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="https://media.licdn.com/dms/image/D4E03AQFspr6MI03aJw/profile-displayphoto-shrink_200_200/0/1687714548973?e=2147483647&v=beta&t=lU2LIguPkED12ztN2sF_K0u6NlsR5UgXP6fW9dBIHA0"
+          content="https://www.anaszenagui.me/Anas%20ZENAGUI%20-%20Website.png"
         />
         <meta property="og:url" content="https://www.anaszenagui.me/" />
         <meta property="og:type" content="website" />
@@ -51,7 +51,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://media.licdn.com/dms/image/D4E03AQFspr6MI03aJw/profile-displayphoto-shrink_200_200/0/1687714548973?e=2147483647&v=beta&t=lU2LIguPkED12ztN2sF_K0u6NlsR5UgXP6fW9dBIHA0"
+          content="https://www.anaszenagui.me/Anas%20ZENAGUI%20V1.jpeg"
         />
 
         {/* Additional Meta Tags for SEO */}
@@ -63,6 +63,75 @@ export default function Home() {
           name="apple-mobile-web-app-status-bar-style"
           content="black-translucent"
         />
+
+        {/* Schema.org JSON-LD for SEO */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "name": "Anas Zenagui",
+            "jobTitle": "Cloud & DevOps Engineer",
+            "url": "https://www.anaszenagui.me/",
+            "image": "https://www.anaszenagui.me/Anas%20ZENAGUI%20-%20Website.png",
+            "sameAs": [
+              "https://www.linkedin.com/in/anas-zenagui/",
+              "https://github.com/ZenaguiAnas",
+            ],
+            "description": "Anas Zenagui, a Cloud and DevOps Engineer with expertise in MLOps, Full Stack Web Development, and building exceptional digital experiences.",
+          })}
+        </script>
+
+        {/* Breadcrumb Schema.org JSON-LD for SEO */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://www.anaszenagui.me/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "About",
+                "item": "https://www.anaszenagui.me/#about"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Skills",
+                "item": "https://www.anaszenagui.me/#skills"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "Projects",
+                "item": "https://www.anaszenagui.me/#projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 5,
+                "name": "Certifications",
+                "item": "https://www.anaszenagui.me/#certifications"
+              },
+              {
+                "@type": "ListItem",
+                "position": 6,
+                "name": "Blogs",
+                "item": "https://www.anaszenagui.me/#blogs"
+              },
+              {
+                "@type": "ListItem",
+                "position": 7,
+                "name": "Contact",
+                "item": "https://www.anaszenagui.me/#contact"
+              }
+            ]
+          })}
+        </script>
       </Head>
       <Main />
       <About />
