@@ -14,6 +14,12 @@ const blogs = [
     image: 'https://miro.medium.com/v2/resize:fit:1100/format:webp/1*NBjy5R5IkoEUVqQeIxrPeA.png',
     description: 'A comprehensive guide comparing stateful and stateless applications, with examples and use cases.',
   },
+  {
+    title: 'Why Kubernetes Uses Pods Instead of Managing Containers Directly',
+    url: 'https://medium.com/@zenaguianas/why-kubernetes-uses-pods-instead-of-managing-containers-directly-f09c2e2d7790',
+    image: 'https://miro.medium.com/v2/resize:fit:828/format:webp/1*nK1ARW0w3ztzSqiiD_8yuQ.png',
+    description: 'A comprehensive guide comparing stateful and stateless applications, with examples and use cases.',
+  },
 ];
 
 const Blogs = () => {
