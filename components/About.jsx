@@ -13,29 +13,10 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            As a passionate software engineering student, I am driven by a deep
-            fascination for problem-solving and an unwavering commitment to
-            harnessing the potential of technology. With a particular affinity
-            for the Java programming language, I strive to create innovative
-            solutions that address real-world challenges. I constantly seek to
-            integrate the latest advancements in information technology,
-            leveraging its most cutting-edge features.
+            I am a dedicated software engineer with experience in DevOps, cloud computing, and web development. I work with various technologies across the frontend and backend to build efficient and scalable solutions. My focus is on creating innovative applications and ensuring seamless integration of modern technologies.
           </p>
           <p className="py-2 text-gray-600">
-            My insatiable thirst for knowledge fuels my dedication to continuous
-            learning and growth in this ever-evolving field. Embracing the
-            endless possibilities that technology offers, I am excited to
-            explore new horizons and contribute to the transformative power it
-            brings to various industries. The thrill of overcoming obstacles
-            through analytical thinking and logical reasoning has truly
-            captivated me, making problem-solving an exhilarating journey that I
-            wholeheartedly embrace.
-          </p>
-          <p className="py-2 text-gray-600">
-            By combining my technical skills, passion for innovation, and a
-            relentless pursuit of excellence, I am ready to embark on new
-            ventures, collaborate with like-minded individuals, and make a
-            meaningful impact in the world of software engineering.
+            With a strong foundation in problem-solving and a passion for continuous learning, I am committed to leveraging my skills to deliver impactful results. From developing user-friendly interfaces to designing robust backend systems, I strive to contribute meaningfully to every project I undertake.
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
@@ -47,7 +28,7 @@ const About = () => {
           <Image
             src={myPhoto}
             className="rounded-xl"
-            alt="Anas Zenagui - Software Engineering Student"
+            alt="Anas Zenagui - Software Engineer"
           />
         </div>
       </div>
